@@ -19,7 +19,7 @@
 <!-- /vscode-markdown-toc --><!-- vscode-markdown-toc -->
 
 
-# QPEC <!-- omit in toc -->
+# [MSGAI] Modeling and Scaling Generative AI Systems <!-- omit in toc -->
 
 This repository contains the materials of the **MSc Modeling and Scaling for Generative AI systems** course running in fall 2024 at UNINE.
 
