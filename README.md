@@ -35,7 +35,8 @@ This repository contains the materials of the **MSc Modeling and Scaling for Gen
 
 
 
-Todays computing systems become ever complex, due to the rapid development of hardware and software technology.  It is challenging to design and run computing systems that guarantee users’ performance requirements in a resource efficient way. Various quantitative methods are applied to capture such complex system dynamics and predict metrics of interests, from the designing phase of the systems to the runtime performance, e.g., job response times and system anomaly.  To optimize the performance of computing systems, a deep understanding on those methods and their applications on the system design are essential. Having practical hand-on experience on designing experiments, deriving models, and validating results with benchmark systems will prepare students to tackle challenges of real systems. 
+Todays machine learning systems become the backbone technology for our daily life.  Generative AI (GAI) systems, such as language models and diffusion models, are widely used to generate texts, images, videos, and tables. It is challenging to design and run the inference of GAI system that guarantee users’ performance requirements, e.g., latency constraint, in a resource efficient way. Various quantitative methods are applied to capture such complex system dynamics and predict metrics of interests, from the designing phase of the systems to the runtime performance, e.g., job response times and system anomaly.  To optimize the performance of GAI  systems, a deep understanding on those methods and their applications on the system design are essential. 
+<!-- Having practical hand-on experience on designing experiments, deriving models, and validating results with benchmark systems will prepare students to tackle challenges of real systems. -->
 
 Course topics include
 - Generative adversarial networks
@@ -57,6 +58,7 @@ This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.git
 
 
 -  [Jeroen Galjaard](mailto:J.M.Galjaard@tudelft.nl) (TUD PhD student)
+-  [Jiyue Huang](mailto:J.Huang-4@tudelft.nl) (TUD Postdoc )
 
 
 Lydia is the responsible instructors of this course and can be reached at **lydiaychen@ieee.org**.
@@ -64,21 +66,20 @@ Lydia is the responsible instructors of this course and can be reached at **lydi
 
 
 ##  4. <a name='Learningobjectives'></a>Learning objectives
-- LO1. Design full/fractional factorial experiments for multi-variate regression analysis, e.g., finding critical parameters for Generative AI clusters.
-- LO2. Apply queueing theory to analyse and predict the run-time performance of applications, e.g., the average response times of on-line ML training service.
-- LO3. Apply machine learning models to analyse and predict the system dependability, e.g, root cause analysis for machine failure.
-- LO4. Conduct experiments to profile applications and extract their workload parameters on real systems, e.g., deep learning clusters
-- LO5. Develop resource management policies and validate them on real computing systems, e.g., deep learning clusters
+- LO1. Understanding the training and sampling of generative models, namely diffusion and language models 
+- LO2. Design full/fractional factorial experiments for multi-variate regression analysis, e.g., finding critical parameters for GAI systems
+- LO3 Apply queueing theory to analyse and predict the run-time performance of applications, e.g., the average response times of on-line GAI sampling service
+- LO4. Develop resource management policies for GAI systems and validate them on real computing systems
 
 
 ## 5. <a name='dart:Gradingpolicy'></a>:dart: Grading policy
 
 This course has no final exam, instead the grade is largely determined through three components: 
 
-1. Homework (30%): 3 individual homework due in week 4, 8, 11. Each homework accounts 10  of the grade and cover 3 weeks material. All homework will be released at the begining of the semester.
+1. Homework (30%): 3 individual homework due in week 4, 8, 12. Each homework accounts 10  of the grade and cover 4 weeks material. All homework will be released at the begining of the semester.
 
 
-2. Group project (70%): group project report (60%) and presentation (10%). There will be topics of modeling response times, configuring, dependability, scheduling design. There will be an initial proposal in week 5, interim discussion with each team in week 9. The final report will be due in week 13, and 20 minutes presentation in week 9 as well.
+2. Group project (70%): group project report (60%) and presentation (10%). There will be topics of modeling response times, configuring, dependability, scheduling design. There will be an initial proposal in week 6, interim discussion with each team in week 10. The final report will be due in week 13, and 20 minutes presentation in week 9 as well.
 
 
 **All assessment items (homework, and projects reports) have to be submitted via ILIAS.**
@@ -87,7 +88,7 @@ This course has no final exam, instead the grade is largely determined through t
 ###  5.1. <a name='Homework'></a>Homework
 - Homework 1: due in week 4 
 - Homework 2: due in week 8
-- Homework 3: due in week 112
+- Homework 3: due in week 12
 
 Students are given additional 48 hours grace period for late submission and will not receive any grade penalty. However, submissions after 48 hours grace period will not be considered and students will loose 25 points of their final grade. 
 
@@ -98,7 +99,11 @@ Students are given additional 48 hours grace period for late submission and will
 There are different aspects of performance  on modeling and optimizing the executions of deep neural network jobs. In this project, you will play with benchmarks that emulate the training jobs of deep neural networks on top of Spark platform - one of the most popular platform. You can build a model to predict the performance such jobs, to optimize their response times through resource allocations and scheduling, and to test the dependability of such a cluster against malicious attacks. You will do this project in a group with 1-2 other peers.
 
 - Group size: 1-2 students
-- Schedule: initial proposal (week 5), interim meeting (week 9), report due (week 13), and presentation/interview (week 13). 
+- Schedule: 
+  - Initial proposal: week 6
+  - Interim meeting: week 10
+  - Report due: week 13
+  -  Presentation/interview: week 13 
 
 [UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bosnus point.
 
@@ -114,15 +119,15 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 **Week**|**Lecture Topic**|**Lab Topic**|**Assigment Due**
 :-----|:-----|:-----|:-----
 Week 1 (Sep 23) | Introduction on Generative AI| Setup & Intro
-Week 2 (Sep 30) | Generative Adversarial Networks | GANs
-Week 3 (Oct 7) | Diffusion Models | DM
-Week 4 (Oct 14) | Transformers | HW1 | HW1
-Week 5 (Oct 21) | Large Langauge Model I | Transformer | Project proposal
-Week 6 (Oct 28) | Largue Lanague Model II/Project | Prompt Engineering
+Week 2 (Sep 30) | Diffusion Model | DM
+Week 3 (Oct 7) | Transformers | Transformers
+Week 4 (Oct 14) | Language Models I | HW1 | HW1
+Week 5 (Oct 21) | Project | Fast DM inference| 
+Week 6 (Oct 28) | Language Model II |Prompt engineering|Project proposal
 Week 7 (Nov 4) | DoE I | Performance benchmarking |
 Week 8 (Nov 11) | DoE II  | HW2 | HW2
-Week 9 (Nov 18) | Operational Law |  | Project midterm
-Week 10 (Nov 25) | DTMC| DTMC
+Week 9 (Nov 18) | Operational Law |  | 
+Week 10 (Nov 25) | DTMC| DTMC | Project midterm
 Week 11 (Dec 2) | Queueing theorey | CTMC
 Week 12 (Dec 9) | Scheduling | HW3 | HW3
 Week 13 (Dec 16) | Project presentation | No Lab
@@ -147,7 +152,7 @@ Week 13 (Dec 16) | Project presentation | No Lab
 
 
 ###  7.3. <a name='Booksonstatisticalexperimentsandlearning'></a>Books on statistical experiments and learning
-- [Design and Analysis of Experiments] (http://faculty.business.utsa.edu/manderso/STA4723/readings/Douglas-C.-Montgomery-Design-and-Analysis-of-Experiments-Wiley-2012.pdf) by Douglas Montgomery
+- [Design and Analysis of Experiments](http://faculty.business.utsa.edu/manderso/STA4723/readings/Douglas-C.-Montgomery-Design-and-Analysis-of-Experiments-Wiley-2012.pdf) by Douglas Montgomery
 - [Dive into Deep Learning](https://www.d2l.ai/) by Alex Smola et. al.
 - [Pattern Recognition and Machine Learning]() by Christopher Bishop 
 
