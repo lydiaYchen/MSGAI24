@@ -27,12 +27,10 @@ This repository contains the materials of the **MSc Modeling and Scaling for Gen
 ##  1. <a name='Importantlinks'></a>Important links
 
 - [Project description](project.md)
-- [Labs and assigments](homework.md)
+- [Labs and assignments](lab.md)
 
 
 ##  2. <a name='Coursedescription'></a>Course description
-
-
 
 
 Todays machine learning systems become the backbone technology for our daily life.  Generative AI (GAI) systems, such as language models and diffusion models, are widely used to generate texts, images, videos, and tables. It is challenging to design and run the inference of GAI system that guarantee users’ performance requirements, e.g., latency constraint, in a resource efficient way. Various quantitative methods are applied to capture such complex system dynamics and predict metrics of interests, from the designing phase of the systems to the runtime performance, e.g., job response times and system anomaly.  To optimize the performance of GAI  systems, a deep understanding on those methods and their applications on the system design are essential. 
@@ -58,7 +56,7 @@ This course will be mainly taught by [Prof. Lydia Y Chen](https://lydiaychen.git
 
 
 -  [Jeroen Galjaard](mailto:J.M.Galjaard@tudelft.nl) (TUD PhD student)
--  [Jiyue Huang](mailto:J.Huang-4@tudelft.nl) (TUD Postdoc )
+-  [Jiyue Huang](mailto:J.Huang-4@tudelft.nl) (TUD Postdoc)
 
 
 Lydia is the responsible instructors of this course and can be reached at **lydiaychen@ieee.org**.
