@@ -118,15 +118,15 @@ At the end of each project phase we will conduct a short interview (20 minutes p
 :-----|:-----|:-----|:-----
 Week 1 (Sep 23) | Introduction on Generative AI| Setup & Intro
 Week 2 (Sep 30) | Diffusion Model | DM
-Week 3 (Oct 7) | Transformers | Transformers
-Week 4 (Oct 14) | Language Models I | HW1 | HW1
-Week 5 (Oct 21) | Project | Fast DM inference| 
+Week 3 (Oct 7) | Diffusion Model II | Fast DM inference| 
+Week 4 (Oct 14) | Transformers | HW1 | HW1
+Week 5 (Oct 21) | Language Models I | Transformers 
 Week 6 (Oct 28) | Language Model II |Prompt engineering|Project proposal
 Week 7 (Nov 4) | DoE I | Performance benchmarking |
 Week 8 (Nov 11) | DoE II  | HW2 | HW2
 Week 9 (Nov 18) | Operational Law |  | 
 Week 10 (Nov 25) | DTMC| DTMC | Project midterm
-Week 11 (Dec 2) | Queueing theorey | CTMC
+Week 11 (Dec 2) | Queueing theory | CTMC
 Week 12 (Dec 9) | Scheduling | HW3 | HW3
 Week 13 (Dec 16) | Project presentation | No Lab
 
