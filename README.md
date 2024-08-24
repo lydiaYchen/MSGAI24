@@ -126,8 +126,8 @@ Week 7 (Nov 4) | DoE I | Performance benchmarking |
 Week 8 (Nov 11) | DoE II  | HW2 | HW2
 Week 9 (Nov 18) | Operational Law |  | 
 Week 10 (Nov 25) | DTMC| DTMC | Project midterm
-Week 11 (Dec 2) | Queueing theory | CTMC
-Week 12 (Dec 9) | Scheduling | HW3 | HW3
+Week 11 (Dec 2) | CTMC Flip Class room) | CTMC (
+Week 12 (Dec 9) | Queueing+  Scheduling | HW3 | HW3
 Week 13 (Dec 16) | Project presentation | No Lab
 
 
