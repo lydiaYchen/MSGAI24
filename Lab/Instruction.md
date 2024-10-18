@@ -100,7 +100,7 @@ To render the notebook for submission, you are required to run the following com
 ```bash
 jupyter-nbconvert --to pdfviahtml  \
   homework_llm.ipynb \
-  --TagRemovePreprocessor.remove_input_tags='{"hide-cell","remove-student-submission"}' \
+  --TagRemovePreprocessor.remove_input_tags='{"hide-cell","hide-student-submission"}' \
   --TagRemovePreprocessor.remove_all_outputs_tags='{"remove-output"}'         
 ```
 
