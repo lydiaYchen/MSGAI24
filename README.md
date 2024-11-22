@@ -103,7 +103,7 @@ There are different aspects of performance  on modeling and optimizing the execu
   - Report due: week 13
   -  Presentation/interview: week 13 
 
-[UPDATE] We change the requirement. For the final project, you just need to submit ppt slides, which summarize the results. If you submit a report, you will be getting bonus point.
+
 
 At the end of each project phase we will conduct a short interview (20 minutes per group) about the group project and its connection to the course content. Based on the project report and the interview, each member of the group receives a grade. 
 
