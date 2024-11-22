@@ -122,12 +122,12 @@ Week 3 (Oct 7) | Diffusion Model II | Fast DM inference|
 Week 4 (Oct 14) | Transformers | HW1 | HW1
 Week 5 (Oct 21) | Language Models I | Transformers 
 Week 6 (Oct 28) | Language Model II |Prompt engineering|Project proposal
-Week 7 (Nov 4) | DoE I | Q/A on H2 |
+Week 7 (Nov 4) | LLM Evaluation/ DoE I | Q/A on H2 |
 Week 8 (Nov 11) | DoE II  | No Lab | HW2
 Week 9 (Nov 18) | DTMC | Job generator | Project midterm
 Week 10 (Nov 25) | CTM| No Lab | 
 Week 11 (Dec 2) | Queueing (Flip Class)  |  Q/A on HW3
-Week 12 (Dec 9) | Extra session on the project |  | HW3
+Week 12 (Dec 9) | Watermarking GAI |  | HW3
 Week 13 (Dec 16) | Project presentation | No Lab
 
 
